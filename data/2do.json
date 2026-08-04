@@ -1,0 +1,209 @@
+{
+  "semestre": "Segundo",
+  "anio": 2026,
+  "noticias": [
+    {
+      "titulo": "Aranceles · Matriculación 2do Semestre",
+      "descripcion": "Al contado: 240.000 gs. Financiado en hasta 3 cuotas: 1ª cuota 100.000 gs · 2ª cuota 70.000 gs · 3ª cuota 70.000 gs.\\n⚠ Arancel 0: pago único de 30.000 gs.\\n⚠ Matriculación tardía: se suma un adicional de 70.000 gs al costo normal.",
+      "tipo": "Arancel",
+      "fecha": "2do Semestre 2026",
+      "urgente": true
+    },
+    {
+      "titulo": "Bienvenidos a esta herramienta!",
+      "descripcion": "Esta aplicación que da una mano a nuestros delegados, los mismos también merecen una mano!\nSe desarrollo con cariño para los compañeros de Ciencias Politicas",
+      "tipo": "Bienvenida",
+      "fecha": "04 de Agosto",
+      "urgente": false
+    }
+  ],
+  "horario": [
+    { "dia": "Lunes",     "hora": "18:00", "materia": "Introducción a las Ciencias Políticas",              "profesor": "Maria Mercedes Ibarra" },
+    { "dia": "Lunes",     "hora": "18:45", "materia": "Introducción a las Ciencias Políticas",              "profesor": "Maria Mercedes Ibarra" },
+    { "dia": "Lunes",     "hora": "19:45", "materia": "Historia Política Paraguaya",                        "profesor": "Francisco Llamas" },
+    { "dia": "Lunes",     "hora": "20:30", "materia": "Historia Política Paraguaya",                        "profesor": "Francisco Llamas" },
+    { "dia": "Lunes",     "hora": "21:15", "materia": "Historia Política Paraguaya",                        "profesor": "Francisco Llamas" },
+    { "dia": "Martes",    "hora": "18:00", "materia": "Seminario II: Movimientos Sociales y Políticos en Latam", "profesor": "Sonia Guerreño" },
+    { "dia": "Martes",    "hora": "18:45", "materia": "Seminario II: Movimientos Sociales y Políticos en Latam", "profesor": "Sonia Guerreño" },
+    { "dia": "Martes",    "hora": "19:45", "materia": "Seminario II: Movimientos Sociales y Políticos en Latam", "profesor": "Sonia Guerreño" },
+    { "dia": "Miércoles", "hora": "18:00", "materia": "Introducción a las Ciencias Políticas",              "profesor": "Maria Mercedes Ibarra" },
+    { "dia": "Miércoles", "hora": "18:45", "materia": "Introducción a las Ciencias Políticas",              "profesor": "Maria Mercedes Ibarra" },
+    { "dia": "Miércoles", "hora": "19:45", "materia": "Introducción a las Ciencias Políticas",              "profesor": "Maria Mercedes Ibarra" },
+    { "dia": "Miércoles", "hora": "20:30", "materia": "Seminario II: Movimientos Sociales y Políticos en Latam", "profesor": "Sonia Guerreño" },
+    { "dia": "Miércoles", "hora": "21:15", "materia": "Seminario II: Movimientos Sociales y Políticos en Latam", "profesor": "Sonia Guerreño" },
+    { "dia": "Jueves",    "hora": "18:00", "materia": "Historia Política Paraguaya",                        "profesor": "Francisco Llamas" },
+    { "dia": "Jueves",    "hora": "18:45", "materia": "Historia Política Paraguaya",                        "profesor": "Francisco Llamas" },
+    { "dia": "Jueves",    "hora": "19:45", "materia": "Idioma Guaraní II",                                  "profesor": "Cecilia Garcete" },
+    { "dia": "Jueves",    "hora": "20:30", "materia": "Idioma Guaraní II",                                  "profesor": "Cecilia Garcete" },
+    { "dia": "Jueves",    "hora": "21:15", "materia": "Idioma Guaraní II",                                  "profesor": "Cecilia Garcete" },
+    { "dia": "Viernes",   "hora": "18:00", "materia": "Economía Política",                                  "profesor": "Felipe Huerta" },
+    { "dia": "Viernes",   "hora": "18:45", "materia": "Economía Política",                                  "profesor": "Felipe Huerta" },
+    { "dia": "Viernes",   "hora": "19:45", "materia": "Economía Política",                                  "profesor": "Felipe Huerta" },
+    { "dia": "Viernes",   "hora": "20:30", "materia": "Idioma Guaraní II",                                  "profesor": "Cecilia Garcete" },
+    { "dia": "Viernes",   "hora": "21:15", "materia": "Idioma Guaraní II",                                  "profesor": "Cecilia Garcete" }
+  ],
+  "examenes": [
+    {
+      "materia": "Economía Política",
+      "tipo": "Primer Parcial",
+      "fecha": "12 de Octubre",
+      "hora": "19:00",
+      "aula": "",
+      "profesor": "Urquiza"
+    }
+  ],
+  "calendario": [
+    { "mes": "Agosto",     "nombre": "Inicio de Clases", "fecha": "4 al 30",           "tipo": "normal"  },
+    { "mes": "Septiembre", "nombre": "1era Parcial",     "fecha": "14 Sept - 25 sept", "tipo": "parcial" },
+    { "mes": "Octubre",    "nombre": "Clases",           "fecha": "1 al 30 octubre",   "tipo": "normal"  },
+    { "mes": "Noviembre",  "nombre": "2da Parcial",      "fecha": "20 - 30 Noviembre", "tipo": "parcial" },
+    { "mes": "Diciembre",  "nombre": "Finales",          "fecha": "1 al 15 Dic",       "tipo": "final"   }
+  ],
+  "programas": [
+    {
+      "materia": "Economía Política",
+      "descripcion": "Programa de Carrera Derecho",
+      "pdf": "https://drive.google.com/file/d/1vRCeblTMf2fxjp-Uzm3y_GG6t2kLQoT-/view?usp=sharing"
+    },
+    {
+      "materia": "Seminario II: Movimientos Sociales y Políticos en Latam",
+      "descripcion": "Programa de Sociología y Ciencias Políticas",
+      "pdf": "https://drive.google.com/file/d/1iteeACw8JoaKFmoUaiImD3K2sBJQn8pI/view?usp=drive_link"
+    },
+    {
+      "materia": "Historia Política Paraguaya",
+      "descripcion": "Programa 2012 Carrera: Sociología y Ciencias Políticas",
+      "pdf": "https://drive.google.com/file/d/1DOJVF2HXXrpAhDCoCCGx7PJQpa-ap5dD/view?usp=sharing"
+    }
+  ],
+  "libros": [
+    {
+      "materia": "Introducción a las Ciencias Políticas",
+      "titulo": "Manual de derecho politico",
+      "autor": "Mario Justo",
+      "pdf": "https://drive.google.com/file/d/1TGd7_gglaGeDnZigil7An9Qt1SdbDk3L/view",
+      "imagen": "https://imgv2-1-f.scribdassets.com/img/document/352796218/original/6c205b9fe3/1?v=1"
+    },
+    {
+      "materia": "Economía Política",
+      "titulo": "LA RIQUEZA DE LAS NACIONES",
+      "autor": "SMITH, Adam.",
+      "pdf": "https://drive.google.com/file/d/1-LTQdB6v5Ij036EKmzDftMa8zL7_j4KV/view?usp=drive_link",
+      "imagen": "https://fce.com.ar/wp-content/uploads/2023/05/110201.jpg"
+    },
+    {
+      "materia": "Economía Política",
+      "titulo": "PRINCIPIOS DE ECONOMIA POLITICA Y TRIBUTACION",
+      "autor": "DAVID RICARDO",
+      "pdf": "https://drive.google.com/file/d/1pKtWQu2JNyUnsXBlvWDsxLgqsPYfgQ3I/view?usp=drive_link",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHJvi7D8h6SUtlXFyZeuZ9Q4QUqo9Z1UALEEPNEgbqkYTEuOsKOCl03xg&s=10"
+    },
+    {
+      "materia": "Economía Política",
+      "titulo": "ECONOMÍA POLÍTICA - Por JUAN BAUTISTA RIVAROLA",
+      "autor": "JUAN BAUTISTA RIVAROLA PAOLI",
+      "pdf": "https://www.portalguarani.com/1067_juan_bautista_rivarola_paoli__/20616_economia_politica__por_juan_bautista_rivarola_paoli__ano_2010.html",
+      "imagen": "https://www.portalguarani.com/literatura_obras/economia-politica-de-juan-bautista-rivarola-paoli-2010-portalguarani.jpg"
+    },
+    {
+      "materia": "Economía Política",
+      "titulo": "ECONOMÍA con aplicaciones a Latinoamérica",
+      "autor": "PAUL A. SAMUELSON / WILLIAM D. NORDHAUS",
+      "pdf": "https://drive.google.com/file/d/1Zkl3sLHZ0DBl-Tx0028YcUMVhHi4dY2e/view?usp=drive_link",
+      "imagen": "https://0.academia-photos.com/attachment_thumbnails/64852765/mini_magick20201104-15653-1dioqbp.png?1604511678"
+    },
+    {
+      "materia": "Seminario II: Movimientos Sociales y Políticos en Latam",
+      "titulo": "Los movimientos sociales en el contexto actual del Paraguay",
+      "autor": "Dania Pilz, Quintín Riquelme y Verónica Villalba",
+      "pdf": "https://biblioteca.clacso.edu.ar/clacso/osal/20110214040925/5pilzetal.pdf",
+      "imagen": "https://biblioteca-repositorio.clacso.edu.ar/assets/custom/images/logo-clacso-esp.png"
+    },
+    {
+      "materia": "Historia Política Paraguaya",
+      "titulo": "LOS PRESIDENTES DEL PARAGUAY. CRÓNICA POLÍTICA (1844-1954)",
+      "autor": "RAÚL AMARAL",
+      "pdf": "https://www.portalguarani.com/311_raul_amaral__/8325_los_presidentes_del_paraguay_cronica_politica_1844_1954__1994__por_raul_amaral.html",
+      "imagen": "https://www.portalguarani.com/literatura_obras/amaral-raul-presiq.jpg"
+    },
+    {
+      "materia": "Historia Política Paraguaya",
+      "titulo": "HISTORIA ECONÓMICA DEL PARAGUAY",
+      "autor": "WASHINGTON ASHWELL",
+      "pdf": "https://www.portalguarani.com/617_washington_ashwell__/15273_historia_economica_del_paraguay_1870__1925__por_washington_ashwell.html",
+      "imagen": "https://www.portalguarani.com/literatura_obras/washington-ashwell-historia-economica-de-paraguay-I-portalguarani.jpg"
+    },
+    {
+      "materia": "Historia Política Paraguaya",
+      "titulo": "EL PARAGUAY ACTUAL 1ª PARTE",
+      "autor": "DIEGO ABENTE BRUN",
+      "pdf": "https://www.portalguarani.com/1699_diego_abente_brun/13704_el_paraguay_actual_1_parte_1989_1998__por_diego_abente_brun.html",
+      "imagen": "https://www.portalguarani.com/literatura_obras/diego-abente-brun-paraguay-actual-1989-1998.jpg"
+    },
+    {
+      "materia": "Historia Política Paraguaya",
+      "titulo": "HISTORIA DEL PARAGUAY CONTEMPORANEO",
+      "autor": "OSVALDO KALLSEN",
+      "pdf": "https://www.portalguarani.com/1235_osvaldo_kallsen__/11898_historia_del_paraguay_contemporaneo_1869_1983__autor_osvaldo_kallsen__ano_1983.html",
+      "imagen": "https://www.portalguarani.com/literatura_obras/osvaldo-kallsen-historia-tapa.jpg"
+    },
+    {
+      "materia": "Historia Política Paraguaya",
+      "titulo": "COMPENDIO DE HISTORIA PARAGUAYA",
+      "autor": "JULIO CÉSAR CHAVES",
+      "pdf": "https://portalguarani.com/381_julio_cesar_chaves__/28830_compendio_de_historia_paraguaya__autor_julio_cesar_chaves__ano_2014.html",
+      "imagen": "https://portalguarani.com/literatura_obras/COMPRENDIO%20DE%20HISTORIA%20PARAGUAYA%20-%20JULIO%20CESAR%20CHAVES%20-%20ANO%202014%20-%20PORTALGUARANI.jpg"
+    },
+    {
+      "materia": "Historia Política Paraguaya",
+      "titulo": "PARAGUAY INDEPENDIENTE",
+      "autor": "EFRAÍM CARDOZO",
+      "pdf": "https://www.portalguarani.com/586_efraim_cardozo/13969_paraguay_independiente__la_revolucion_de_la_independencia_obra_de_efraim_cardozo_.html",
+      "imagen": "https://www.portalguarani.com/literatura_obras/efraim-cardozo-paraguay-independiente-tp-luis-toranzos.jpg"
+    },
+    {
+      "materia": "Historia Política Paraguaya",
+      "titulo": "APUNTES DE HISTORIA CULTURAL DEL PARAGUAY",
+      "autor": "EFRAÍM CARDOZO",
+      "pdf": "https://www.portalguarani.com/586_efraim_cardozo__/1058_apuntes_de_historia_cultural_del_paraguay__las_raices_de_la_cultura_paraguaya_2007__por_efraim_cardozo.html",
+      "imagen": "https://www.portalguarani.com/literatura_obras/efraim-cardozo-historia-cultural-del-paraguay-servilibro.jpg"
+    }
+  ],
+  "drive": [
+    {
+      "materia": "Introducción a las Ciencias Políticas",
+      "descripcion": "Carpeta de Materiales Docente/Alumno",
+      "url": "https://drive.google.com/drive/folders/1ckfKDi2DuZP-sjdtWQO7ttncOvti1pS4?usp=drive_link",
+      "urlClassroom": ""
+    },
+    {
+      "materia": "Economía Política",
+      "descripcion": "Carpeta Docente/Alumno",
+      "url": "https://drive.google.com/drive/folders/1HWDqKL6lOeYubjKDbGLzHzLDJTKDOr_u?usp=drive_link",
+      "urlClassroom": ""
+    },
+    {
+      "materia": "Historia Política Paraguaya",
+      "descripcion": "Carpeta docente/alumno",
+      "url": "https://drive.google.com/drive/folders/1kR77JjAslWVX4OQcUwnsU2PX9gzuyS7F?usp=drive_link",
+      "urlClassroom": ""
+    },
+    {
+      "materia": "Idioma Guaraní II",
+      "descripcion": "Carpeta docente/alumno",
+      "url": "https://drive.google.com/drive/folders/1XhWiJqp-iMmz_wlvmaLGf3SQkPkCr-w2?usp=drive_link",
+      "urlClassroom": ""
+    },
+    {
+      "materia": "Seminario II: Movimientos Sociales y Políticos en Latam",
+      "descripcion": "Carpeta docente",
+      "url": "https://drive.google.com/drive/folders/1RaA2njCfHsNIQmc5PJ10hziFYtroTciH?usp=drive_link",
+      "urlClassroom": ""
+    }
+  ],
+  "infoci": [
+    { "ci": "5000000", "mensaje": "Tu calificación fue 11/20" },
+    { "ci": "1234567", "mensaje": "excelente 20/20 en tu examen" },
+    { "ci": "7654321", "mensaje": "Calificacion 11/20" }
+  ]
+}
