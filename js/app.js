@@ -1,8 +1,8 @@
 /* ===================================================
-   Campus Informativo · 2do Semestre · app.js
+   Campus Informativo · 4to Semestre · app.js
    =================================================== */
 
-const DATA_URL = `data/2do.json?_v=${Date.now()}`;
+const DATA_URL = `data/4to.json?_v=${Date.now()}`;
 let DATA = null;
 
 const COLORES_MATERIAS = {
@@ -55,7 +55,7 @@ function renderNoticias() {
   if (!c) return;
   if (!DATA.noticias?.length) { c.innerHTML = '<p class="text-muted">Sin avisos por el momento.</p>'; return; }
   c.innerHTML = DATA.noticias.map(n => {
-    const msg = '*' + n.titulo + '*\n' + (n.descripcion || '') + '\n\n_Campus 2do Semestre \u00b7 Cs. Pol\u00edticas UNA_';
+    const msg = '*' + n.titulo + '*\n' + (n.descripcion || '') + '\n\n_Campus 4to Semestre \u00b7 Cs. Pol\u00edticas UNA_';
     const waText = encodeURIComponent(msg);
     const waBtn = n.urgente
       ? '<a href="https://wa.me/?text=' + waText + '" target="_blank" class="btn btn-sm btn-success mt-2 w-100"><i class="bi bi-whatsapp me-1"></i>Compartir por WhatsApp</a>'
@@ -218,7 +218,7 @@ function renderExamenes() {
       e.aula     ? 'Aula: ' + e.aula     : null,
       e.profesor ? 'Prof: ' + e.profesor : null,
       '',
-      '_Campus 2do Semestre \u00b7 Cs. Pol\u00edticas UNA_'
+      '_Campus 4to Semestre \u00b7 Cs. Pol\u00edticas UNA_'
     ].filter(l => l !== null).join('\n');
     const waText = encodeURIComponent(lineas);
     return '<div class="col-12 col-sm-6 col-lg-4">'
@@ -411,40 +411,11 @@ function initTema() {
 
 function datosDemo() {
   return {
-    noticias: [{ titulo:'Inicio de clases', descripcion:'Las clases del segundo semestre comienzan el 4 de agosto.', tipo:'Aviso', fecha:'1 Ago', urgente:false }],
-    horario: [
-      { dia:'Lunes', hora:'18:00', materia:'Econom\u00eda Pol\u00edtica', profesor:'Prof. Garc\u00eda' },
-      { dia:'Lunes', hora:'18:45', materia:'Econom\u00eda Pol\u00edtica', profesor:'Prof. Garc\u00eda' },
-      { dia:'Lunes', hora:'19:45', materia:'Introducci\u00f3n a las Ciencias Pol\u00edticas', profesor:'Prof. Mart\u00ednez' },
-      { dia:'Martes', hora:'18:00', materia:'Historia Pol\u00edtica Paraguaya', profesor:'Prof. Romero' },
-      { dia:'Martes', hora:'18:45', materia:'Historia Pol\u00edtica Paraguaya', profesor:'Prof. Romero' },
-      { dia:'Martes', hora:'19:45', materia:'Introducci\u00f3n a las Ciencias Pol\u00edticas', profesor:'Prof. Mart\u00ednez' },
-      { dia:'Martes', hora:'20:30', materia:'Idioma Guaran\u00ed II', profesor:'Prof. Ayala' },
-      { dia:'Mi\u00e9rcoles', hora:'18:00', materia:'Econom\u00eda Pol\u00edtica', profesor:'Prof. Garc\u00eda' },
-      { dia:'Mi\u00e9rcoles', hora:'18:45', materia:'Econom\u00eda Pol\u00edtica', profesor:'Prof. Garc\u00eda' },
-      { dia:'Mi\u00e9rcoles', hora:'19:45', materia:'Historia Pol\u00edtica Paraguaya', profesor:'Prof. Romero' },
-      { dia:'Jueves', hora:'18:00', materia:'Idioma Guaran\u00ed II', profesor:'Prof. Ayala' },
-      { dia:'Jueves', hora:'18:45', materia:'Idioma Guaran\u00ed II', profesor:'Prof. Ayala' },
-      { dia:'Jueves', hora:'20:30', materia:'Idioma Guaran\u00ed II', profesor:'Prof. Ayala' },
-      { dia:'Viernes', hora:'18:00', materia:'Seminario II: Movimientos Sociales y Pol\u00edticos en Latam', profesor:'Prof. L\u00f3pez' },
-      { dia:'Viernes', hora:'18:45', materia:'Seminario II: Movimientos Sociales y Pol\u00edticos en Latam', profesor:'Prof. L\u00f3pez' },
-      { dia:'Viernes', hora:'19:45', materia:'Seminario II: Movimientos Sociales y Pol\u00edticos en Latam', profesor:'Prof. L\u00f3pez' }
-    ],
-    examenes: [{ materia:'Econom\u00eda Pol\u00edtica', tipo:'Primer Parcial', fecha:'12 de Octubre', hora:'19:00', aula:'', profesor:'Urquiza' }],
-    calendario: [
-      { mes:'Agosto', nombre:'Inicio de Clases', tipo:'normal' },
-      { mes:'Septiembre', nombre:'1er Parcial', tipo:'parcial', fecha:'14\u201325 Sep' },
-      { mes:'Octubre', nombre:'Cursada', tipo:'normal' },
-      { mes:'Noviembre', nombre:'2do Parcial', tipo:'parcial', fecha:'20\u201330 Nov' },
-      { mes:'Diciembre', nombre:'Finales', tipo:'final', fecha:'1\u201315 Dic' }
-    ],
-    programas: [
-      { materia:'Econom\u00eda Pol\u00edtica', descripcion:'Programa oficial \u00b7 2026', pdf:'' },
-      { materia:'Historia Pol\u00edtica Paraguaya', descripcion:'Programa oficial \u00b7 2026', pdf:'' },
-      { materia:'Introducci\u00f3n a las Ciencias Pol\u00edticas', descripcion:'Programa oficial \u00b7 2026', pdf:'' },
-      { materia:'Idioma Guaran\u00ed II', descripcion:'Programa oficial \u00b7 2026', pdf:'' },
-      { materia:'Seminario II: Movimientos Sociales y Pol\u00edticos en Latam', descripcion:'Programa oficial \u00b7 2026', pdf:'' }
-    ],
+    noticias: [],
+    horario: [],
+    examenes: [],
+    calendario: [],
+    programas: [],
     libros: [],
     drive: [],
     infoci: []

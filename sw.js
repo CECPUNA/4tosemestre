@@ -1,11 +1,11 @@
 // ============================================================
 // Campus Informativo — Service Worker
-// Versión: portal-v2026-08-04-2
+// Versión: portal-4to-v2026-08-04
 // Estrategia: network-first para HTML/CSS/JS, cache-first para imágenes
 // El CACHE_NAME debe actualizarse con cada deploy para forzar refresh.
 // ============================================================
 
-const CACHE_NAME = 'portal-v2026-08-04-2';
+const CACHE_NAME = 'portal-4to-v2026-08-04';
 
 const STATIC_ASSETS = [
   './',

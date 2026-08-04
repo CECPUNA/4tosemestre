@@ -1,23 +1,17 @@
 /* ===================================================
-   Gestor de Contenidos · 2do Semestre
+   Gestor de Contenidos · 4to Semestre
    admin.js — CRUD + localStorage + GitHub API publish
    =================================================== */
 
-const LS_KEY    = 'cms_2do_2026';
-const GH_REPO   = 'CECPUNA/2dosemestre';
-const GH_PATH   = 'data/2do.json';
+const LS_KEY    = 'cms_4to_2026';
+const GH_REPO   = 'CECPUNA/4tosemestre';
+const GH_PATH   = 'data/4to.json';
 const GH_BRANCH = 'main';
 const LS_TOKEN  = 'gh_token_cms';
 
 const RAW_URL = `https://raw.githubusercontent.com/${GH_REPO}/${GH_BRANCH}/${GH_PATH}`;
 
-const MATERIAS = [
-  'Economía Política',
-  'Introducción a las Ciencias Políticas',
-  'Historia Política Paraguaya',
-  'Idioma Guaraní II',
-  'Seminario II: Movimientos Sociales y Políticos en América Latina (Siglos XX y XXI)'
-];
+const MATERIAS = [];
 
 let D     = null;
 let ghSHA = null;
@@ -293,7 +287,7 @@ const A = {
   limpiarInfoCI() { if (!confirm('¿Eliminar TODOS los registros de CI?')) return; D.infoci = []; guardarLocalYMarcar(); renderInfoCI(); toast('Lista de CI limpiada'); },
   mostrarJSON() { document.getElementById('jsonOutput').textContent = JSON.stringify(D, null, 2); },
   exportarJSON() { const json = JSON.stringify(D, null, 2); document.getElementById('jsonOutput').textContent = json; navigator.clipboard?.writeText(json).then(()=>toast('JSON copiado al portapapeles')).catch(()=>toast('Copiá el texto manualmente','error')); },
-  descargarJSON() { const blob = new Blob([JSON.stringify(D,null,2)],{type:'application/json'}); const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = '2do.json'; a.click(); toast('Archivo descargado'); },
+  descargarJSON() { const blob = new Blob([JSON.stringify(D,null,2)],{type:'application/json'}); const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = '4to.json'; a.click(); toast('Archivo descargado'); },
   resetearDatos() { if (!confirm('¿Resetar al último JSON publicado en GitHub? Se perderán los cambios locales.')) return; localStorage.removeItem(LS_KEY); location.reload(); }
 };
 

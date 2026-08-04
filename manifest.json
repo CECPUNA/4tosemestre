@@ -1,7 +1,7 @@
 {
-  "name": "Info 2do",
-  "short_name": "Info 2do",
-  "description": "Información académica del Segundo Semestre – Ciencias Políticas UNA",
+  "name": "Info 4to",
+  "short_name": "Info 4to",
+  "description": "Información académica del Cuarto Semestre – Ciencias Políticas UNA",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
