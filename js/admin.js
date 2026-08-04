@@ -11,7 +11,21 @@ const LS_TOKEN  = 'gh_token_cms';
 
 const RAW_URL = `https://raw.githubusercontent.com/${GH_REPO}/${GH_BRANCH}/${GH_PATH}`;
 
-const MATERIAS = [];
+const MATERIAS = [
+  'Metodología de las Ciencias Sociales',
+  'Estadística Social',
+  'Desarrollo Económico',
+  'Idioma Guaraní IV',
+  'Seminario IV - Filosofía Política'
+];
+
+const PROFESORES = {
+  'Metodología de las Ciencias Sociales': 'Anaya Anaís Arrúa',
+  'Estadística Social':                   'Justo Alfredo González',
+  'Desarrollo Económico':                 'Milciades Martínez',
+  'Idioma Guaraní IV':                    'María Georgina González Morán',
+  'Seminario IV - Filosofía Política':    'Isabelino Galeano'
+};
 
 let D     = null;
 let ghSHA = null;
@@ -73,7 +87,7 @@ function datosVacios() {
     noticias:[], horario:[], examenes:[], calendario:[],
     programas: MATERIAS.map(m => ({ materia: m, descripcion: 'Programa oficial · 2026', pdf: '' })),
     libros:[],
-    drive: MATERIAS.map(m => ({ materia: m, descripcion: 'Carpeta del docente', url: '', urlClassroom: '' })),
+    drive: MATERIAS.map(m => ({ materia: m, descripcion: `Carpeta de ${PROFESORES[m] || 'docente'}`, url: '', urlClassroom: '' })),
     infoci: []
   };
 }
@@ -294,7 +308,7 @@ const A = {
 function renderHorarioGrid() {
   const grid = document.getElementById('horarioGrid'); if (!grid) return;
   const DIAS = ['Lunes','Martes','Miércoles','Jueves','Viernes'];
-  const horas = [...new Set(D.horario.map(c=>c.hora))]; ['18:00','19:00','20:00','21:00'].forEach(h=>{if(!horas.includes(h)) horas.push(h);}); horas.sort();
+  const horas = [...new Set(D.horario.map(c=>c.hora))]; ['17:15','18:00','18:45','19:45','20:30','21:15'].forEach(h=>{if(!horas.includes(h)) horas.push(h);}); horas.sort();
   let html = '<div class="hg-head" style="grid-column:1">Hora</div>'; DIAS.forEach(d=>html+=`<div class="hg-head">${d}</div>`);
   horas.forEach(h=>{ html+=`<div class="hg-hora">${h}</div>`; DIAS.forEach(dia=>{ const cls=D.horario.find(c=>c.dia===dia&&c.hora===h); html += cls ? `<div class="hg-cell ocupada" onclick="A.eliminarClase('${dia}','${h}')"><div class="hg-mat">${cls.materia.split(' ').slice(0,2).join(' ')}</div><div class="hg-prof">${cls.profesor||''}</div><div class="hg-del"><i class="bi bi-x-circle"></i> Quitar</div></div>` : `<div class="hg-cell" onclick="prefillHorario('${dia}','${h}')"><i class="bi bi-plus text-muted"></i></div>`; }); });
   grid.innerHTML = html;

@@ -1,10 +1,48 @@
 {
   "noticias": [],
-  "horario": [],
+  "horario": [
+    { "dia": "Lunes",     "hora": "18:00", "desde": "18:00", "hasta": "18:45", "materia": "Desarrollo Económico",                "profesor": "Milciades Martínez" },
+    { "dia": "Lunes",     "hora": "18:45", "desde": "18:45", "hasta": "19:30", "materia": "Desarrollo Económico",                "profesor": "Milciades Martínez" },
+    { "dia": "Lunes",     "hora": "19:45", "desde": "19:45", "hasta": "20:30", "materia": "Seminario IV - Filosofía Política",   "profesor": "Isabelino Galeano" },
+    { "dia": "Lunes",     "hora": "20:30", "desde": "20:30", "hasta": "21:15", "materia": "Seminario IV - Filosofía Política",   "profesor": "Isabelino Galeano" },
+    { "dia": "Lunes",     "hora": "21:15", "desde": "21:15", "hasta": "22:00", "materia": "Seminario IV - Filosofía Política",   "profesor": "Isabelino Galeano" },
+    { "dia": "Martes",    "hora": "17:15", "desde": "17:15", "hasta": "18:00", "materia": "Estadística Social",                  "profesor": "Justo Alfredo González" },
+    { "dia": "Martes",    "hora": "18:00", "desde": "18:00", "hasta": "18:45", "materia": "Estadística Social",                  "profesor": "Justo Alfredo González" },
+    { "dia": "Martes",    "hora": "18:45", "desde": "18:45", "hasta": "19:30", "materia": "Estadística Social",                  "profesor": "Justo Alfredo González" },
+    { "dia": "Martes",    "hora": "19:45", "desde": "19:45", "hasta": "20:30", "materia": "Metodología de las Ciencias Sociales", "profesor": "Anaya Anaís Arrúa" },
+    { "dia": "Martes",    "hora": "20:30", "desde": "20:30", "hasta": "21:15", "materia": "Metodología de las Ciencias Sociales", "profesor": "Anaya Anaís Arrúa" },
+    { "dia": "Martes",    "hora": "21:15", "desde": "21:15", "hasta": "22:00", "materia": "Metodología de las Ciencias Sociales", "profesor": "Anaya Anaís Arrúa" },
+    { "dia": "Miércoles", "hora": "17:15", "desde": "17:15", "hasta": "18:00", "materia": "Seminario IV - Filosofía Política",   "profesor": "Isabelino Galeano" },
+    { "dia": "Miércoles", "hora": "18:00", "desde": "18:00", "hasta": "18:45", "materia": "Seminario IV - Filosofía Política",   "profesor": "Isabelino Galeano" },
+    { "dia": "Miércoles", "hora": "18:45", "desde": "18:45", "hasta": "19:30", "materia": "Idioma Guaraní IV",                   "profesor": "María Georgina González Morán" },
+    { "dia": "Miércoles", "hora": "19:45", "desde": "19:45", "hasta": "20:30", "materia": "Idioma Guaraní IV",                   "profesor": "María Georgina González Morán" },
+    { "dia": "Miércoles", "hora": "20:30", "desde": "20:30", "hasta": "21:15", "materia": "Idioma Guaraní IV",                   "profesor": "María Georgina González Morán" },
+    { "dia": "Jueves",    "hora": "17:15", "desde": "17:15", "hasta": "18:00", "materia": "Idioma Guaraní IV",                   "profesor": "María Georgina González Morán" },
+    { "dia": "Jueves",    "hora": "18:00", "desde": "18:00", "hasta": "18:45", "materia": "Idioma Guaraní IV",                   "profesor": "María Georgina González Morán" },
+    { "dia": "Jueves",    "hora": "18:45", "desde": "18:45", "hasta": "19:30", "materia": "Desarrollo Económico",                "profesor": "Milciades Martínez" },
+    { "dia": "Jueves",    "hora": "19:45", "desde": "19:45", "hasta": "20:30", "materia": "Desarrollo Económico",                "profesor": "Milciades Martínez" },
+    { "dia": "Jueves",    "hora": "20:30", "desde": "20:30", "hasta": "21:15", "materia": "Desarrollo Económico",                "profesor": "Milciades Martínez" },
+    { "dia": "Viernes",   "hora": "17:15", "desde": "17:15", "hasta": "18:00", "materia": "Estadística Social",                  "profesor": "Justo Alfredo González" },
+    { "dia": "Viernes",   "hora": "18:00", "desde": "18:00", "hasta": "18:45", "materia": "Estadística Social",                  "profesor": "Justo Alfredo González" },
+    { "dia": "Viernes",   "hora": "18:45", "desde": "18:45", "hasta": "19:30", "materia": "Metodología de las Ciencias Sociales", "profesor": "Anaya Anaís Arrúa" },
+    { "dia": "Viernes",   "hora": "19:45", "desde": "19:45", "hasta": "20:30", "materia": "Metodología de las Ciencias Sociales", "profesor": "Anaya Anaís Arrúa" }
+  ],
   "examenes": [],
   "calendario": [],
-  "programas": [],
+  "programas": [
+    { "materia": "Metodología de las Ciencias Sociales", "descripcion": "Programa oficial · 2026", "pdf": "" },
+    { "materia": "Estadística Social",                   "descripcion": "Programa oficial · 2026", "pdf": "" },
+    { "materia": "Desarrollo Económico",                 "descripcion": "Programa oficial · 2026", "pdf": "" },
+    { "materia": "Idioma Guaraní IV",                    "descripcion": "Programa oficial · 2026", "pdf": "" },
+    { "materia": "Seminario IV - Filosofía Política",    "descripcion": "Programa oficial · 2026", "pdf": "" }
+  ],
   "libros": [],
-  "drive": [],
+  "drive": [
+    { "materia": "Metodología de las Ciencias Sociales", "descripcion": "Carpeta de Anaya Anaís Arrúa",            "url": "", "urlClassroom": "" },
+    { "materia": "Estadística Social",                   "descripcion": "Carpeta de Justo Alfredo González",        "url": "", "urlClassroom": "" },
+    { "materia": "Desarrollo Económico",                 "descripcion": "Carpeta de Milciades Martínez",            "url": "", "urlClassroom": "" },
+    { "materia": "Idioma Guaraní IV",                    "descripcion": "Carpeta de María Georgina González Morán", "url": "", "urlClassroom": "" },
+    { "materia": "Seminario IV - Filosofía Política",    "descripcion": "Carpeta de Isabelino Galeano",             "url": "", "urlClassroom": "" }
+  ],
   "infoci": []
 }
