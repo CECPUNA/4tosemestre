@@ -264,5 +264,10 @@
       "urlClassroom": ""
     }
   ],
-  "infoci": []
+  "infoci": [
+    {
+      "ci": "1234567",
+      "mensaje": "prueba"
+    }
+  ]
 }
