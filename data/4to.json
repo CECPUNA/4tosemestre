@@ -203,7 +203,38 @@
     }
   ],
   "examenes": [],
-  "calendario": [],
+  "calendario": [
+    {
+      "mes": "Agosto",
+      "nombre": "1er Parcial",
+      "fecha": "Finales de Agosto",
+      "tipo": "parcial"
+    },
+    {
+      "mes": "Septiembre",
+      "nombre": "Clases regulares",
+      "fecha": "Todo el mes",
+      "tipo": "normal"
+    },
+    {
+      "mes": "Octubre",
+      "nombre": "2do Parcial",
+      "fecha": "Comienzo del Mes",
+      "tipo": "parcial"
+    },
+    {
+      "mes": "Noviembre",
+      "nombre": "Examenes Finales",
+      "fecha": "16 Nov a Dic",
+      "tipo": "final"
+    },
+    {
+      "mes": "Diciembre",
+      "nombre": "Examenes Finales",
+      "fecha": "hasta el 15 Dic",
+      "tipo": "final"
+    }
+  ],
   "programas": [
     {
       "materia": "Metodología de las Ciencias Sociales",
